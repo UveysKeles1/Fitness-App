@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
   standalone: true,
   imports: [CommonModule, HomeComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Fitness';
